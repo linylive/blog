@@ -1,9 +1,7 @@
 <template>
     <el-container>
-        <el-header>
-            <div class="nav-bar">
-
-            </div>
+        <el-header height="40px" class="nav-header">
+            <div class=""></div>
         </el-header>
         <el-container>
             <el-aside width="200px">
@@ -23,9 +21,9 @@
     }
 </script>
 
-<style scoped>
-    .nav-bar {
-        width: 100%;
-        height: 5px;
+<style scoped lang="scss">
+    .nav-header {
+        background: rgba(40,42,44,.6);
+
     }
 </style>
